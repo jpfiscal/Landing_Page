@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.top_bar{
+    background-color: #1F2937;
+    margin:0;
+    flex: 1;
+}
+.header{
+    padding: 20px 200px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.logo {
+    padding-top: 10px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header ul{
+    align-items: flex-start;
+    display: flex;
+    gap: 24px;
+    color: #E5E7EB;
+    list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 0;
+}
+.top_bar_content {
+    display:flex;
+    padding: 100px 200px;
+    gap: 24px;
+}
+.top_bar_text{
+    color: #F9FAF8;
+    flex: 1;
+}
+.top_bar_text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.top_bar_text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+.top_signup {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.top_bar_img {
+    
+    background-color: rgb(100, 106, 120);
+    color: white;
+    display:flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.mid_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.mid_bar_title h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 20px 0;
+}
+.tile_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.tile_group {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+}
+.tile_group p {
+    font-size: 18px;
+    color: #606060;
+    margin-top: 0;
+    text-align: center;
+}
+.tile {
+    height: 170px;
+    width: 170px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 4px;
+    margin-bottom: 5px;
+}
+.quote_bar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    gap: 0;
+}
+.quote_bar .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    flex-shrink: 0;
+}
+.quote_bar .quote_by{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin: 0;
+    align-self: flex-end;
+}
+.low_bar{
+    border-color: red;
+    border-width: 1px;
+}
+.footer{
+    margin-top: auto;
+    flex:1;
+    border-color: red;
+    border-width: 1px;
+}
